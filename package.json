@@ -2,9 +2,7 @@
   "name": "npm-publish-lionleee",
   "version": "1.0.0",
   "description": "lionleee's personal library",
-  "bin": {
-    "log-run": "bin/cli.js"
-  },
+  "main" : "index.js",
   "license": "MIT",
   "keywords": [
     "sample"
@@ -15,17 +13,16 @@
   "author": {
     "name": "lionleeee",
     "url": "https://github.com/lionleeee/npm-publish/issues"
-},
-"bugs": {
+  },
+  "bugs": {
     "url": "https://github.com/lionleeee/npm-publish/issues",
     "email": "cheesepaninim@gmail.com"
-},
-"homepage": "https://github.com/lionleeee/npm-publish",
-"devDependencies": {
+  },
+  "homepage": "https://github.com/lionleeee/npm-publish",
+  "devDependencies": {
     "jest": "^28.1.0"
-},
-"dependencies": {
+  },
+  "dependencies": {
     "commander": "^11.0.0"
-}
-  
+  }
 }
